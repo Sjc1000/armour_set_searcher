@@ -1,0 +1,2786 @@
+[
+	{
+		"Steadfast Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Paralysis": -1,
+				"Stun": 1
+			}
+		}
+	},
+	{
+		"Standfast Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Stun": 2
+			}
+		}
+	},
+	{
+		"Standfast Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Stun": 2
+			}
+		}
+	},
+	{
+		"Paralysis Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Paralysis": 1,
+				"Poison": -1
+			}
+		}
+	},
+	{
+		"Paralysis Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Paralysis": 3,
+				"Poison": -1
+			}
+		}
+	},
+	{
+		"Paralysis Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Paralysis": 3,
+				"Poison": -1
+			}
+		}
+	},
+	{
+		"Pep Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Sleep": 1,
+				"Mud/Snow": -1
+			}
+		}
+	},
+	{
+		"Pep Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Sleep": 3,
+				"Mud/Snow": -1
+			}
+		}
+	},
+	{
+		"Pep Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Sleep": 3,
+				"Mud/Snow": -1
+			}
+		}
+	},
+	{
+		"Antidote Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Poison": 1,
+				"Stun": -1
+			}
+		}
+	},
+	{
+		"Antidote Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Poison": 3,
+				"Stun": -1
+			}
+		}
+	},
+	{
+		"Antidote Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Poison": 3,
+				"Stun": -1
+			}
+		}
+	},
+	{
+		"Def Lock Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Def Lock": 2
+			}
+		}
+	},
+	{
+		"Alarm Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Anti-Theft": 2
+			}
+		}
+	},
+	{
+		"Tracker Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Sleep": -1,
+				"Mud/Snow": 1
+			}
+		}
+	},
+	{
+		"Trekker Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Mud/Snow": 2
+			}
+		}
+	},
+	{
+		"Staunch Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Bleeding": 2
+			}
+		}
+	},
+	{
+		"Clean Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Sticky Res": 2
+			}
+		}
+	},
+	{
+		"Sane Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Evasion": -1,
+				"Frenzy Res": 1
+			}
+		}
+	},
+	{
+		"Sane Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Evasion": -2,
+				"Frenzy Res": 4
+			}
+		}
+	},
+	{
+		"Footing Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Tremor Res": 1,
+				"Sleep": -1
+			}
+		}
+	},
+	{
+		"Tectonic Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Tremor Res": 2
+			}
+		}
+	},
+	{
+		"Heat Res Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Heat Res": 2
+			}
+		}
+	},
+	{
+		"Cold Res Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Cold Res": 2
+			}
+		}
+	},
+	{
+		"Earplug Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Protection": -1,
+				"Hearing": 1
+			}
+		}
+	},
+	{
+		"Earplug Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Protection": -1,
+				"Hearing": 1
+			}
+		}
+	},
+	{
+		"Earplug Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Protection": -2,
+				"Hearing": 4
+			}
+		}
+	},
+	{
+		"Wind Res Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Fate": -1,
+				"Wind Res": 1
+			}
+		}
+	},
+	{
+		"Wind Res Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Fate": -1,
+				"Wind Res": 3
+			}
+		}
+	},
+	{
+		"Attack Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Defense": -1,
+				"Attack": 1
+			}
+		}
+	},
+	{
+		"Attack Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Defense": -1,
+				"Attack": 3
+			}
+		}
+	},
+	{
+		"Attack Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Defense": -1,
+				"Attack": 5
+			}
+		}
+	},
+	{
+		"Expert Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Expert": 1,
+				"Dragon Res": -1
+			}
+		}
+	},
+	{
+		"Expert Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Expert": 3,
+				"Dragon Res": -1
+			}
+		}
+	},
+	{
+		"Expert Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Expert": 3,
+				"Dragon Res": -1
+			}
+		}
+	},
+	{
+		"Expert Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Expert": 5,
+				"Dragon Res": -1
+			}
+		}
+	},
+	{
+		"Disabler Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Elemental": -1,
+				"Status": 1
+			}
+		}
+	},
+	{
+		"Disabler Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Elemental": -1,
+				"Status": 1
+			}
+		}
+	},
+	{
+		"Disabler Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Elemental": -1,
+				"Status": 3
+			}
+		}
+	},
+	{
+		"Element Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Elemental": 1,
+				"Status": -1
+			}
+		}
+	},
+	{
+		"Element Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Elemental": 4,
+				"Status": -2
+			}
+		}
+	},
+	{
+		"Blaze Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Water Atk": -1,
+				"Fire Atk": 1
+			}
+		}
+	},
+	{
+		"Blaze Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Water Atk": -1,
+				"Fire Atk": 3
+			}
+		}
+	},
+	{
+		"Stream Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Water Atk": 1,
+				"ThunderAtk": -1
+			}
+		}
+	},
+	{
+		"Stream Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Water Atk": 3,
+				"ThunderAtk": -1
+			}
+		}
+	},
+	{
+		"Bolt Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"ThunderAtk": 1,
+				"Ice Atk": -1
+			}
+		}
+	},
+	{
+		"Bolt Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"ThunderAtk": 3,
+				"Ice Atk": -1
+			}
+		}
+	},
+	{
+		"Frost Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Ice Atk": 1,
+				"Fire Atk": -1
+			}
+		}
+	},
+	{
+		"Frost Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Ice Atk": 3,
+				"Fire Atk": -1
+			}
+		}
+	},
+	{
+		"Dragon Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Dragon Atk": 1,
+				"Status": -1
+			}
+		}
+	},
+	{
+		"Dragon Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Dragon Atk": 3,
+				"Status": -1
+			}
+		}
+	},
+	{
+		"Tenderizer Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Tenderizer": 1,
+				"Health": -1
+			}
+		}
+	},
+	{
+		"Tenderizer Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Tenderizer": 1,
+				"Health": -1
+			}
+		}
+	},
+	{
+		"Tenderizer Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Tenderizer": 4,
+				"Health": -2
+			}
+		}
+	},
+	{
+		"Tenderizer Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Tenderizer": 4,
+				"Health": -2
+			}
+		}
+	},
+	{
+		"Destroyer Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Expert": -1,
+				"Destroyer": 1
+			}
+		}
+	},
+	{
+		"Destroyer Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Expert": -1,
+				"Destroyer": 1
+			}
+		}
+	},
+	{
+		"Destroyer Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Expert": -2,
+				"Destroyer": 4
+			}
+		}
+	},
+	{
+		"Destroyer Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Expert": -2,
+				"Destroyer": 4
+			}
+		}
+	},
+	{
+		"CritElementJwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"CritElemnt": 1,
+				"Attack": -1
+			}
+		}
+	},
+	{
+		"CritElementJwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"CritElemnt": 3,
+				"Attack": -1
+			}
+		}
+	},
+	{
+		"Crit Status Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"CritStatus": 1,
+				"Attack": -1
+			}
+		}
+	},
+	{
+		"Crit Status Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"CritStatus": 3,
+				"Attack": -1
+			}
+		}
+	},
+	{
+		"Capacity Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Reload Spd": -1,
+				"Loading": 1
+			}
+		}
+	},
+	{
+		"Capacity Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Reload Spd": -1,
+				"Loading": 1
+			}
+		}
+	},
+	{
+		"Capacity Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Reload Spd": -2,
+				"Loading": 2
+			}
+		}
+	},
+	{
+		"Laden Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Reload Spd": -2,
+				"Loading": 3
+			}
+		}
+	},
+	{
+		"Charger Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Constitutn": -1,
+				"FastCharge": 1
+			}
+		}
+	},
+	{
+		"Charger Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Constitutn": -1,
+				"FastCharge": 1
+			}
+		}
+	},
+	{
+		"Charger Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Constitutn": -2,
+				"FastCharge": 4
+			}
+		}
+	},
+	{
+		"Throttle Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Gloves Off": 1,
+				"Sense": -1
+			}
+		}
+	},
+	{
+		"Throttle Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Gloves Off": 1,
+				"Sense": -1
+			}
+		}
+	},
+	{
+		"Throttle Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Gloves Off": 3,
+				"Sense": -1
+			}
+		}
+	},
+	{
+		"KO Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"KO": 1,
+				"FastCharge": -1
+			}
+		}
+	},
+	{
+		"KO Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"KO": 3,
+				"FastCharge": -1
+			}
+		}
+	},
+	{
+		"KO Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"KO": 3,
+				"FastCharge": -1
+			}
+		}
+	},
+	{
+		"Drain Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Stamina": -1,
+				"Stam Drain": 1
+			}
+		}
+	},
+	{
+		"Drain Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Stamina": -1,
+				"Stam Drain": 3
+			}
+		}
+	},
+	{
+		"Drain Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Stamina": -1,
+				"Stam Drain": 3
+			}
+		}
+	},
+	{
+		"Potential Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Protection": -1,
+				"Potential": 1
+			}
+		}
+	},
+	{
+		"Potential Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Protection": -1,
+				"Potential": 3
+			}
+		}
+	},
+	{
+		"Fortitude Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Survivor": 1,
+				"Rec Level": -1
+			}
+		}
+	},
+	{
+		"Fortitude Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Survivor": 3,
+				"Rec Level": -1
+			}
+		}
+	},
+	{
+		"Bombardier Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Bomb Boost": 2
+			}
+		}
+	},
+	{
+		"Sonorous Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Maestro": 2
+			}
+		}
+	},
+	{
+		"Artillery Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Artillery": 2
+			}
+		}
+	},
+	{
+		"Defense Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Defense": 1,
+				"Attack": -1
+			}
+		}
+	},
+	{
+		"Defense Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Defense": 3,
+				"Attack": -1
+			}
+		}
+	},
+	{
+		"Defense Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Defense": 3,
+				"Attack": -1
+			}
+		}
+	},
+	{
+		"Defense Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Defense": 5,
+				"Attack": -1
+			}
+		}
+	},
+	{
+		"Resistor Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Health": -1,
+				"Blight Res": 1
+			}
+		}
+	},
+	{
+		"Resistor Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Health": -2,
+				"Blight Res": 4
+			}
+		}
+	},
+	{
+		"Fire Res Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Fire Res": 1,
+				"Water Res": -1
+			}
+		}
+	},
+	{
+		"Nul-Fire Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Fire Res": 2
+			}
+		}
+	},
+	{
+		"Water Res Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Water Res": 1,
+				"ThunderRes": -1
+			}
+		}
+	},
+	{
+		"Nul-Water Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Water Res": 2
+			}
+		}
+	},
+	{
+		"ThunderRes Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Ice Res": -1,
+				"ThunderRes": 1
+			}
+		}
+	},
+	{
+		"Nul-Thundr Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"ThunderRes": 2
+			}
+		}
+	},
+	{
+		"Ice Res Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Fire Res": -1,
+				"Ice Res": 1
+			}
+		}
+	},
+	{
+		"Nul-Ice Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Ice Res": 2
+			}
+		}
+	},
+	{
+		"Dragon Res Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Poison": -1,
+				"Dragon Res": 1
+			}
+		}
+	},
+	{
+		"Nul-Dragon Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Dragon Res": 2
+			}
+		}
+	},
+	{
+		"Protection Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Protection": 1
+			}
+		}
+	},
+	{
+		"Asylum Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Protection": 2
+			}
+		}
+	},
+	{
+		"Vitality Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Health": 2
+			}
+		}
+	},
+	{
+		"Recovery Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Rec Speed": 1,
+				"Eating": -1
+			}
+		}
+	},
+	{
+		"Recovery Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Rec Speed": 3,
+				"Eating": -1
+			}
+		}
+	},
+	{
+		"Recovery Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Rec Speed": 3,
+				"Eating": -1
+			}
+		}
+	},
+	{
+		"Medicine Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Rec Speed": -1,
+				"Rec Level": 1
+			}
+		}
+	},
+	{
+		"Medicine Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Rec Speed": -1,
+				"Rec Level": 3
+			}
+		}
+	},
+	{
+		"Evasion Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Evasion": 1,
+				"Health": -1
+			}
+		}
+	},
+	{
+		"Evasion Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Evasion": 1,
+				"Health": -1
+			}
+		}
+	},
+	{
+		"Evasion Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Evasion": 3,
+				"Health": -1
+			}
+		}
+	},
+	{
+		"Jumping Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Evade Dist": 1,
+				"Health": -1
+			}
+		}
+	},
+	{
+		"Jumping Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Evade Dist": 1,
+				"Health": -1
+			}
+		}
+	},
+	{
+		"Jumping Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Evade Dist": 3,
+				"Health": -1
+			}
+		}
+	},
+	{
+		"Sheath Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Sheathing": 1,
+				"Sharpener": -1
+			}
+		}
+	},
+	{
+		"Sheath Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Sheathing": 1,
+				"Sharpener": -1
+			}
+		}
+	},
+	{
+		"Sheath Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Sheathing": 3,
+				"Sharpener": -1
+			}
+		}
+	},
+	{
+		"Trapmaster Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"SpeedSetup": 2
+			}
+		}
+	},
+	{
+		"Gobbler Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Eating": 1,
+				"Rec Level": -1
+			}
+		}
+	},
+	{
+		"Gobbler Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Eating": 1,
+				"Rec Level": -1
+			}
+		}
+	},
+	{
+		"Gobbler Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Eating": 4,
+				"Rec Level": -2
+			}
+		}
+	},
+	{
+		"Satiated Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Whim": -1,
+				"LightEater": 2
+			}
+		}
+	},
+	{
+		"Sprinter Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Stamina": 1,
+				"Hunger": -1
+			}
+		}
+	},
+	{
+		"Sprinter Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Stamina": 1,
+				"Hunger": -1
+			}
+		}
+	},
+	{
+		"Sprinter Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Stamina": 4,
+				"Hunger": -2
+			}
+		}
+	},
+	{
+		"Physique Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Constitutn": 1,
+				"Stamina": -1
+			}
+		}
+	},
+	{
+		"Physique Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Constitutn": 1,
+				"Stamina": -1
+			}
+		}
+	},
+	{
+		"Physique Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Constitutn": 3,
+				"Stamina": -1
+			}
+		}
+	},
+	{
+		"Refresh Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Evasion": -1,
+				"Stam Recov": 1
+			}
+		}
+	},
+	{
+		"Refresh Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Evasion": -1,
+				"Stam Recov": 1
+			}
+		}
+	},
+	{
+		"Refresh Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Evasion": -1,
+				"Stam Recov": 3
+			}
+		}
+	},
+	{
+		"Hungerless Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Hunger": 2
+			}
+		}
+	},
+	{
+		"Metabolism Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Gluttony": 2
+			}
+		}
+	},
+	{
+		"Fate Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Fate": 1,
+				"Whim": -1
+			}
+		}
+	},
+	{
+		"Fate Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Fate": 4,
+				"Whim": -2
+			}
+		}
+	},
+	{
+		"Capture Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Fate": -1,
+				"Tranquilzr": 1
+			}
+		}
+	},
+	{
+		"Capture Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Fate": -2,
+				"Tranquilzr": 4
+			}
+		}
+	},
+	{
+		"Carver Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Fate": -1,
+				"Carving": 1
+			}
+		}
+	},
+	{
+		"Carver Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Fate": -2,
+				"Carving": 4
+			}
+		}
+	},
+	{
+		"Transportr Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Transportr": 2
+			}
+		}
+	},
+	{
+		"Gathering Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Gathering": 2
+			}
+		}
+	},
+	{
+		"Spree Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Spd Gather": 2
+			}
+		}
+	},
+	{
+		"Blessing Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Whim": 2
+			}
+		}
+	},
+	{
+		"Friendship Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Wide-Range": 1,
+				"Sense": -1
+			}
+		}
+	},
+	{
+		"Friendship Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Wide-Range": 1,
+				"Sense": -1
+			}
+		}
+	},
+	{
+		"Friendship Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Wide-Range": 3,
+				"Sense": -1
+			}
+		}
+	},
+	{
+		"Psychic Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Psychic": 2
+			}
+		}
+	},
+	{
+		"Professor Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Combo Rate": 2
+			}
+		}
+	},
+	{
+		"Factory Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Combo Plus": 2
+			}
+		}
+	},
+	{
+		"Enduring Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"LastingPwr": 2
+			}
+		}
+	},
+	{
+		"Perception Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Perception": 2
+			}
+		}
+	},
+	{
+		"Ranger Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Ranger": 2
+			}
+		}
+	},
+	{
+		"Ninja Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Sense": 2
+			}
+		}
+	},
+	{
+		"Handicraft Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Sharpness": -1,
+				"Handicraft": 1
+			}
+		}
+	},
+	{
+		"Handicraft Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Sharpness": -1,
+				"Handicraft": 1
+			}
+		}
+	},
+	{
+		"Handicraft Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Sharpness": -2,
+				"Handicraft": 2
+			}
+		}
+	},
+	{
+		"Artisan Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Sharpness": -2,
+				"Handicraft": 3
+			}
+		}
+	},
+	{
+		"Fencer Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Handicraft": -1,
+				"Fencing": 1
+			}
+		}
+	},
+	{
+		"Fencer Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Handicraft": -1,
+				"Fencing": 1
+			}
+		}
+	},
+	{
+		"Fencer Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Handicraft": -2,
+				"Fencing": 4
+			}
+		}
+	},
+	{
+		"Razor Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Sharpness": 1,
+				"Handicraft": -1
+			}
+		}
+	},
+	{
+		"Razor Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Sharpness": 1,
+				"Handicraft": -1
+			}
+		}
+	},
+	{
+		"Razor Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Sharpness": 4,
+				"Handicraft": -2
+			}
+		}
+	},
+	{
+		"Draw Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Expert": -1,
+				"Crit Draw": 1
+			}
+		}
+	},
+	{
+		"Draw Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Expert": -1,
+				"Crit Draw": 1
+			}
+		}
+	},
+	{
+		"Draw Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Expert": -1,
+				"Crit Draw": 3
+			}
+		}
+	},
+	{
+		"Gambit Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"PunishDraw": 1,
+				"Sharpness": -1
+			}
+		}
+	},
+	{
+		"Gambit Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"PunishDraw": 1,
+				"Sharpness": -1
+			}
+		}
+	},
+	{
+		"Gambit Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"PunishDraw": 4,
+				"Sharpness": -2
+			}
+		}
+	},
+	{
+		"Ironwall Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Constitutn": -1,
+				"Guard": 1
+			}
+		}
+	},
+	{
+		"Ironwall Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Constitutn": -1,
+				"Guard": 3
+			}
+		}
+	},
+	{
+		"Ironwall Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Constitutn": -1,
+				"Guard": 3
+			}
+		}
+	},
+	{
+		"Shield Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Stamina": -1,
+				"Guard Up": 1
+			}
+		}
+	},
+	{
+		"Shield Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Stamina": -1,
+				"Guard Up": 3
+			}
+		}
+	},
+	{
+		"Grinder Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Sharpener": 2
+			}
+		}
+	},
+	{
+		"Forceshot Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Recoil": -1,
+				"Normal Up": 1
+			}
+		}
+	},
+	{
+		"Forceshot Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Recoil": -2,
+				"Normal Up": 4
+			}
+		}
+	},
+	{
+		"Pierce Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Recoil": -1,
+				"Pierce Up": 1
+			}
+		}
+	},
+	{
+		"Pierce Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Recoil": -2,
+				"Pierce Up": 4
+			}
+		}
+	},
+	{
+		"Pellet Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Pellet Up": 1,
+				"Recoil": -1
+			}
+		}
+	},
+	{
+		"Pellet Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Pellet Up": 4,
+				"Recoil": -2
+			}
+		}
+	},
+	{
+		"ShotPlus Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Reload Spd": -1,
+				"Normal S+": 1
+			}
+		}
+	},
+	{
+		"ShotPlus Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Reload Spd": -1,
+				"Normal S+": 3
+			}
+		}
+	},
+	{
+		"ShotPlus Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Reload Spd": -1,
+				"Normal S+": 3
+			}
+		}
+	},
+	{
+		"PiercePlus Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Pierce S+": 2
+			}
+		}
+	},
+	{
+		"PelletPlus Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Pellet S+": 2
+			}
+		}
+	},
+	{
+		"CragPlus Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Crag S+": 2
+			}
+		}
+	},
+	{
+		"ClustPlus Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Reload Spd": -1,
+				"Clust S+": 1
+			}
+		}
+	},
+	{
+		"SlicePlus Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Slicing S+": 2
+			}
+		}
+	},
+	{
+		"BlastPlus Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Blast S+": 2
+			}
+		}
+	},
+	{
+		"Salvo Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Reload Spd": -1,
+				"Rapid Fire": 1
+			}
+		}
+	},
+	{
+		"Salvo Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Reload Spd": -1,
+				"Rapid Fire": 1
+			}
+		}
+	},
+	{
+		"Salvo Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Reload Spd": -2,
+				"Rapid Fire": 4
+			}
+		}
+	},
+	{
+		"Quickload Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Reload Spd": 1,
+				"Recoil": -1
+			}
+		}
+	},
+	{
+		"Quickload Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Reload Spd": 3,
+				"Recoil": -1
+			}
+		}
+	},
+	{
+		"Quickload Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Reload Spd": 3,
+				"Recoil": -1
+			}
+		}
+	},
+	{
+		"Absorber Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Reload Spd": -1,
+				"Recoil": 1
+			}
+		}
+	},
+	{
+		"Absorber Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Reload Spd": -1,
+				"Recoil": 1
+			}
+		}
+	},
+	{
+		"Absorber Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Reload Spd": -2,
+				"Recoil": 4
+			}
+		}
+	},
+	{
+		"Precise Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Dead Eye": 1,
+				"Loading": -1
+			}
+		}
+	},
+	{
+		"Precise Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Dead Eye": 3,
+				"Loading": -1
+			}
+		}
+	},
+	{
+		"Sniper Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Precision": 2
+			}
+		}
+	},
+	{
+		"Paracoat Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Attack": -1,
+				"Para C+": 1
+			}
+		}
+	},
+	{
+		"Paracoat Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Attack": -1,
+				"Para C+": 3
+			}
+		}
+	},
+	{
+		"Sleepcoat Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Sleep C+": 2
+			}
+		}
+	},
+	{
+		"Poisoncoat Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Poison C+": 2
+			}
+		}
+	},
+	{
+		"Powercoat Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Expert": -1,
+				"Power C+": 1
+			}
+		}
+	},
+	{
+		"Powercoat Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Expert": -1,
+				"Power C+": 3
+			}
+		}
+	},
+	{
+		"Rangecoat Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"C.Range C+": 2
+			}
+		}
+	},
+	{
+		"Blastcoat Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Blast C+": 2
+			}
+		}
+	},
+	{
+		"Draincoat Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Exhaust C+": 2
+			}
+		}
+	},
+	{
+		"Torchlight Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Flame Aura": 2
+			}
+		}
+	},
+	{
+		"Release Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Status": -1,
+				"FreeElemnt": 1
+			}
+		}
+	},
+	{
+		"Catalyst Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Status": -2,
+				"FreeElemnt": 2
+			}
+		}
+	},
+	{
+		"TrueCatalystJwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Status": -2,
+				"FreeElemnt": 3
+			}
+		}
+	},
+	{
+		"Guts Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Combo Rate": -1,
+				"Guts": 1
+			}
+		}
+	},
+	{
+		"Guts Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Combo Rate": -1,
+				"Guts": 3
+			}
+		}
+	},
+	{
+		"Meateater Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Carnivore": 1,
+				"Hunger": -1
+			}
+		}
+	},
+	{
+		"Meatlover Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Carnivore": 2
+			}
+		}
+	},
+	{
+		"Fungiform Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Mycology": 2,
+				"Carnivore": -1
+			}
+		}
+	},
+	{
+		"Honeybee Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Whim": -1,
+				"Honey": 1
+			}
+		}
+	},
+	{
+		"Queenbee Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Honey": 2
+			}
+		}
+	},
+	{
+		"Biology Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Sense": -1,
+				"Biology": 1
+			}
+		}
+	},
+	{
+		"Microbio Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Biology": 2
+			}
+		}
+	},
+	{
+		"Spirit Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Spirit": 1,
+				"Guard": -1
+			}
+		}
+	},
+	{
+		"Spirit Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Spirit": 3,
+				"Guard": -1
+			}
+		}
+	},
+	{
+		"Flawless Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Rec Speed": -1,
+				"Unscathed": 1
+			}
+		}
+	},
+	{
+		"Flawless Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Rec Speed": -1,
+				"Unscathed": 3
+			}
+		}
+	},
+	{
+		"Steady Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Defense": -1,
+				"Unshakable": 1
+			}
+		}
+	},
+	{
+		"Steady Jewel 3": {
+			"Slots": "3",
+			"Skills": {
+				"Defense": -2,
+				"Unshakable": 4
+			}
+		}
+	},
+	{
+		"Player Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"LastingPwr": -1,
+				"TeamPlayer": 1
+			}
+		}
+	},
+	{
+		"Morale Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"TeamPlayer": 2
+			}
+		}
+	},
+	{
+		"Leader Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Gathering": -1,
+				"TeamLeader": 1
+			}
+		}
+	},
+	{
+		"Leader Jewel 2": {
+			"Slots": "2",
+			"Skills": {
+				"Gathering": -1,
+				"TeamLeader": 3
+			}
+		}
+	},
+	{
+		"Charmer Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Charmer": 1
+			}
+		}
+	},
+	{
+		"Rodeo Jewel 1": {
+			"Slots": "1",
+			"Skills": {
+				"Mounting": 2
+			}
+		}
+	},
+	{
+		"Honed Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Edgemaster": 2
+			}
+		}
+	},
+	{
+		"Honed Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Edgemaster": 3
+			}
+		}
+	},
+	{
+		"Honed Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Edgemaster": 3
+			}
+		}
+	},
+	{
+		"True Honed Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Edgemaster": 4
+			}
+		}
+	},
+	{
+		"True Honed Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Edgemaster": 4
+			}
+		}
+	},
+	{
+		"UltimateHonedJwl3": {
+			"Slots": "3",
+			"Skills": {
+				"Edgemaster": 5
+			}
+		}
+	},
+	{
+		"Cutting Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Edge Lore": 2
+			}
+		}
+	},
+	{
+		"Cutting Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Edge Lore": 4
+			}
+		}
+	},
+	{
+		"Cutting Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Edge Lore": 5
+			}
+		}
+	},
+	{
+		"TrueCuttingJwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Edge Lore": 6
+			}
+		}
+	},
+	{
+		"Calm Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"SteadyHand": 2
+			}
+		}
+	},
+	{
+		"Calm Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"SteadyHand": 3
+			}
+		}
+	},
+	{
+		"Calm Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"SteadyHand": 3
+			}
+		}
+	},
+	{
+		"True Calm Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"SteadyHand": 4
+			}
+		}
+	},
+	{
+		"True Calm Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"SteadyHand": 4
+			}
+		}
+	},
+	{
+		"UltimateCalmJwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"SteadyHand": 5
+			}
+		}
+	},
+	{
+		"Hale Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Status Res": 2
+			}
+		}
+	},
+	{
+		"Hale Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Status Res": 3
+			}
+		}
+	},
+	{
+		"Hale Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Status Res": 3
+			}
+		}
+	},
+	{
+		"True Hale Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Status Res": 4
+			}
+		}
+	},
+	{
+		"True Hale Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Status Res": 4
+			}
+		}
+	},
+	{
+		"UltimateHaleJwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Status Res": 5
+			}
+		}
+	},
+	{
+		"Ire Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Fury": 2
+			}
+		}
+	},
+	{
+		"Ire Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Fury": 3
+			}
+		}
+	},
+	{
+		"Ire Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Fury": 3
+			}
+		}
+	},
+	{
+		"True Ire Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Fury": 4
+			}
+		}
+	},
+	{
+		"True Ire Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Fury": 4
+			}
+		}
+	},
+	{
+		"UltimateIreJwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Fury": 5
+			}
+		}
+	},
+	{
+		"Nimble Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Nimbleness": 2
+			}
+		}
+	},
+	{
+		"True Nimble Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Nimbleness": 3
+			}
+		}
+	},
+	{
+		"Nimble Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Nimbleness": 4
+			}
+		}
+	},
+	{
+		"Nimble Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Nimbleness": 4
+			}
+		}
+	},
+	{
+		"True Nimble Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Nimbleness": 5
+			}
+		}
+	},
+	{
+		"Hardy Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Resilience": 2
+			}
+		}
+	},
+	{
+		"True Hardy Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Resilience": 3
+			}
+		}
+	},
+	{
+		"Hardy Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Resilience": 4
+			}
+		}
+	},
+	{
+		"Hardy Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Resilience": 4
+			}
+		}
+	},
+	{
+		"True Hardy Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Resilience": 5
+			}
+		}
+	},
+	{
+		"Furtive Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Covert": 2
+			}
+		}
+	},
+	{
+		"Furtive Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Covert": 4
+			}
+		}
+	},
+	{
+		"Furtive Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Covert": 5
+			}
+		}
+	},
+	{
+		"TrueFurtiveJwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Covert": 6
+			}
+		}
+	},
+	{
+		"Withdrawn Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Readiness": 2
+			}
+		}
+	},
+	{
+		"Withdrawn Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Readiness": 4
+			}
+		}
+	},
+	{
+		"Withdrawn Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Readiness": 4
+			}
+		}
+	},
+	{
+		"TrueWithdrawnJwl3": {
+			"Slots": "3",
+			"Skills": {
+				"Readiness": 5
+			}
+		}
+	},
+	{
+		"Arcane Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Arcana": 2
+			}
+		}
+	},
+	{
+		"Arcane Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Arcana": 4
+			}
+		}
+	},
+	{
+		"Arcane Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Arcana": 5
+			}
+		}
+	},
+	{
+		"True Arcane Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Arcana": 6
+			}
+		}
+	},
+	{
+		"Brawn Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Brawn": 2
+			}
+		}
+	},
+	{
+		"Brawn Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Brawn": 4
+			}
+		}
+	},
+	{
+		"Brawn Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Brawn": 5
+			}
+		}
+	},
+	{
+		"True Brawn Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Brawn": 6
+			}
+		}
+	},
+	{
+		"Impactful Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Brutality": 2
+			}
+		}
+	},
+	{
+		"Impactful Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Brutality": 4
+			}
+		}
+	},
+	{
+		"Impactful Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Brutality": 4
+			}
+		}
+	},
+	{
+		"TrueImpactfulJwl3": {
+			"Slots": "3",
+			"Skills": {
+				"Brutality": 5
+			}
+		}
+	},
+	{
+		"Intense Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Ferocity": 3
+			}
+		}
+	},
+	{
+		"Intense Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Ferocity": 4
+			}
+		}
+	},
+	{
+		"TrueIntenseJwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Ferocity": 4
+			}
+		}
+	},
+	{
+		"TrueIntenseJwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Ferocity": 5
+			}
+		}
+	},
+	{
+		"Aegis Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Stalwart": 3
+			}
+		}
+	},
+	{
+		"Aegis Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Stalwart": 4
+			}
+		}
+	},
+	{
+		"True Aegis Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Stalwart": 4
+			}
+		}
+	},
+	{
+		"True Aegis Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Stalwart": 5
+			}
+		}
+	},
+	{
+		"Tactful Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Prudence": 3
+			}
+		}
+	},
+	{
+		"Tactful Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Prudence": 4
+			}
+		}
+	},
+	{
+		"TrueTactfulJwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Prudence": 4
+			}
+		}
+	},
+	{
+		"TrueTactfulJwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Prudence": 5
+			}
+		}
+	},
+	{
+		"Broad Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Amplify": 3
+			}
+		}
+	},
+	{
+		"Broad Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Amplify": 4
+			}
+		}
+	},
+	{
+		"True Broad Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Amplify": 4
+			}
+		}
+	},
+	{
+		"True Broad Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Amplify": 5
+			}
+		}
+	},
+	{
+		"Supplicant Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Prayer": 2
+			}
+		}
+	},
+	{
+		"Supplicant Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Prayer": 4
+			}
+		}
+	},
+	{
+		"Supplicant Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Prayer": 5
+			}
+		}
+	},
+	{
+		"Trove Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Hoarding": 2
+			}
+		}
+	},
+	{
+		"True Trove Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Hoarding": 3
+			}
+		}
+	},
+	{
+		"Trove Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Hoarding": 3
+			}
+		}
+	},
+	{
+		"True Trove Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Hoarding": 4
+			}
+		}
+	},
+	{
+		"Trove Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Hoarding": 6
+			}
+		}
+	},
+	{
+		"Avid Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Avarice": 2
+			}
+		}
+	},
+	{
+		"Avid Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Avarice": 3
+			}
+		}
+	},
+	{
+		"Avid Jwl 3": {
+			"Slots": "3",
+			"Skills": {
+				"Avarice": 6
+			}
+		}
+	},
+	{
+		"True Avid Jwl 1": {
+			"Slots": "1",
+			"Skills": {
+				"Avarice": 3
+			}
+		}
+	},
+	{
+		"True Avid Jwl 2": {
+			"Slots": "2",
+			"Skills": {
+				"Avarice": 4
+			}
+		}
+	}
+]

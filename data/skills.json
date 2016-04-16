@@ -1,0 +1,744 @@
+{
+	"Auto-Guard": {
+		"Description": "Enables the ability to automatically block attacks (when blocking is possible and your weapon is drawn).",
+		"Points": 10,
+		"Jewel": "Auto-Guard"
+	},
+	"Dragon Atk Down": {
+		"Description": "Decreases the power of Dragon attacks and Dragon shots (Dragon S).",
+		"Points": -10,
+		"Jewel": "Dragon Atk"
+	},
+	"Recoil Down +2": {
+		"Description": "Reduces Bowgun recoil.",
+		"Points": 15,
+		"Jewel": "Recoil"
+	},
+	"Gathering -1": {
+		"Description": "Sometimes lowers the number of times items can be gathered at Gathering Points.",
+		"Points": -10,
+		"Jewel": "Gathering"
+	},
+	"Punishing Draw": {
+		"Description": "Grants ability to Stun monsters with draw attacks from cutting weapons and slightly increases Attack.",
+		"Points": 10,
+		"Jewel": "PunishDraw"
+	},
+	"Recovery Down": {
+		"Description": "Decreases the efficacy of Health recovery items.",
+		"Points": -10,
+		"Jewel": "Rec Level"
+	},
+	"Recovery Spd -2": {
+		"Description": "Greatly slows recovery from temporary damage (the red portion of the Health Gauge).",
+		"Points": -15,
+		"Jewel": "Rec Speed"
+	},
+	"Thunder Atk Down": {
+		"Description": "Decreases the power of Thunder attacks and Thunder shots (Thunder S).",
+		"Points": -10,
+		"Jewel": "ThunderAtk"
+	},
+	"Good Luck": {
+		"Description": "Sometimes increases the number of Reward Items received at the end of a Quest.",
+		"Points": 10,
+		"Jewel": "Fate"
+	},
+	"Acrobat": {
+		"Description": "Slows Stamina depletion when blocking, evading, or dive-evading. Increases evasion invulnerability.",
+		"Points": 10,
+		"Jewel": "Nimbleness"
+	},
+	"Latent Power +2": {
+		"Description": "Greatly empowers you for a limited time when certain conditions are met.",
+		"Points": 15,
+		"Jewel": "Gloves Off"
+	},
+	"Sneak": {
+		"Description": "Decreases the likelihood of being targeted by monsters.",
+		"Points": 10,
+		"Jewel": "Sense"
+	},
+	"Latent Power +1": {
+		"Description": "Empowers you for a limited time when certain conditions are met.",
+		"Points": 10,
+		"Jewel": "Gloves Off"
+	},
+	"Double Stun": {
+		"Description": "Makes it harder to recover from being Stunned.",
+		"Points": -10,
+		"Jewel": "Stun"
+	},
+	"Recovery Spd +1": {
+		"Description": "Speeds recovery from temporary damage (the red portion of the Health Gauge).",
+		"Points": 10,
+		"Jewel": "Rec Speed"
+	},
+	"Evasion Down": {
+		"Description": "Reduces the invulnerability period when evading.",
+		"Points": -10,
+		"Jewel": "Evasion"
+	},
+	"Taunt": {
+		"Description": "Increases the likelihood of being targeted by monsters.",
+		"Points": -10,
+		"Jewel": "Sense"
+	},
+	"Earplugs": {
+		"Description": "Negates the effects of some large monsters' roars.",
+		"Points": 10,
+		"Jewel": "Hearing"
+	},
+	"Combination +20%": {
+		"Description": "Increases your Combination success rate by 20%.",
+		"Points": 10,
+		"Jewel": "Combo Rate"
+	},
+	"Use Lv1 Crag S": {
+		"Description": "Allows Lv1 Crag shots (Crag S) to be loaded.",
+		"Points": 10,
+		"Jewel": "Crag S+"
+	},
+	"Critical Eye +1": {
+		"Description": "Increases Affinity by 10%.",
+		"Points": 10,
+		"Jewel": "Expert"
+	},
+	"Silver Bullet": {
+		"Description": "Increases the power of Normal, Pierce and Pellet shots, and Rapid, Pierce and Spread-type arrows.",
+		"Points": 10,
+		"Jewel": "SteadyHand"
+	},
+	"Fire Atk +2": {
+		"Description": "Greatly increases the power of Fire attacks and Flaming shots (Flaming S).",
+		"Points": 15,
+		"Jewel": "Fire Atk"
+	},
+	"Honey Hunter": {
+		"Description": "Allows you to gather two Honeys at once.",
+		"Points": 10,
+		"Jewel": "Honey"
+	},
+	"Item Use Up": {
+		"Description": "Increases the effect time of certain items.",
+		"Points": 10,
+		"Jewel": "LastingPwr"
+	},
+	"Status Crit": {
+		"Description": "Increases abnormal status attack potency (Sleep, Blast, Poison, Paralysis) of your critical hits.",
+		"Points": 10,
+		"Jewel": "CritStatus"
+	},
+	"Evasion +2": {
+		"Description": "Extends the invulnerability period when evading.",
+		"Points": 15,
+		"Jewel": "Evasion"
+	},
+	"Guard -1": {
+		"Description": "Decreases the likelihood of standing your ground when blocking an attack.",
+		"Points": -10,
+		"Jewel": "Guard"
+	},
+	"Mushromancer": {
+		"Description": "Allows consumption of mushrooms and grants certain benefits as a result.",
+		"Points": 10,
+		"Jewel": "Mycology"
+	},
+	"Use Any Crag S": {
+		"Description": "Allows all levels of Crag shots (Crag S) to be loaded.",
+		"Points": 15,
+		"Jewel": "Crag S+"
+	},
+	"Recoil Down +1": {
+		"Description": "Slightly reduces Bowgun recoil.",
+		"Points": 10,
+		"Jewel": "Recoil"
+	},
+	"Thunder Atk +3": {
+		"Description": "Massively increases the power of Thunder attacks and Thunder shots (Thunder S).",
+		"Points": 20,
+		"Jewel": "ThunderAtk"
+	},
+	"Use C.Range Coat": {
+		"Description": "Allows Close-range coatings to be set when equipped with a Bow.",
+		"Points": 10,
+		"Jewel": "C.Range C+"
+	},
+	"Awaken": {
+		"Description": "Skills that release the latent elemental properties in some weapons that don't have elements.",
+		"Points": 10,
+		"Jewel": "FreeElemnt"
+	},
+	"Critical Eye -3": {
+		"Description": "Decreases Affinity by 15%.",
+		"Points": -20,
+		"Jewel": "Expert"
+	},
+	"Horrible Luck": {
+		"Description": "Often decreases the number of Reward Items received at the end of a Quest.",
+		"Points": -15,
+		"Jewel": "Fate"
+	},
+	"Thunder Atk +2": {
+		"Description": "Greatly increases the power of Thunder attacks and Thunder shots (Thunder S).",
+		"Points": 15,
+		"Jewel": "ThunderAtk"
+	},
+	"Critical Eye -2": {
+		"Description": "Decreases Affinity by 10%.",
+		"Points": -15,
+		"Jewel": "Expert"
+	},
+	"Combination -20%": {
+		"Description": "Decreases your Combination success rate by 20%.",
+		"Points": -15,
+		"Jewel": "Combo Rate"
+	},
+	"Fire Atk +3": {
+		"Description": "Massively increases the power of Fire attacks and Flaming shots (Flaming S).",
+		"Points": 20,
+		"Jewel": "Fire Atk"
+	},
+	"Attack Up (L)": {
+		"Description": "Greatly increases Attack.",
+		"Points": 20,
+		"Jewel": "Attack"
+	},
+	"Evasion +1": {
+		"Description": "Slightly extends the invulnerability period when evading.",
+		"Points": 10,
+		"Jewel": "Evasion"
+	},
+	"Double Paralysis": {
+		"Description": "Doubles the duration of Paralysis.",
+		"Points": -10,
+		"Jewel": "Paralysis"
+	},
+	"Constitution -1": {
+		"Description": "Speeds up Stamina depletion when evading, blocking, etc.",
+		"Points": -10,
+		"Jewel": "Constitutn"
+	},
+	"Evasion +3": {
+		"Description": "Greatly extends the invulnerability period when evading.",
+		"Points": 20,
+		"Jewel": "Evasion"
+	},
+	"Thunder Res +15": {
+		"Description": "Increases Thunder resistance by 15.",
+		"Points": 10,
+		"Jewel": "ThunderRes"
+	},
+	"Attack Up (M)": {
+		"Description": "Increases Attack.",
+		"Points": 15,
+		"Jewel": "Attack"
+	},
+	"Thunder Atk +1": {
+		"Description": "Increases the power of Thunder attacks and Thunder shots (Thunder S).",
+		"Points": 10,
+		"Jewel": "ThunderAtk"
+	},
+	"Recoil Down +3": {
+		"Description": "Greatly reduces Bowgun recoil.",
+		"Points": 20,
+		"Jewel": "Recoil"
+	},
+	"Thunder Res +20": {
+		"Description": "Increases Thunder resistance by 20.",
+		"Points": 15,
+		"Jewel": "ThunderRes"
+	},
+	"Knockout King": {
+		"Description": "Makes it easier to Stun monsters.",
+		"Points": 10,
+		"Jewel": "KO"
+	},
+	"Benediction": {
+		"Description": "Increases the efficacy of Health recovery items and may decrease damage taken.",
+		"Points": 10,
+		"Jewel": "Prayer"
+	},
+	"Pro Transporter": {
+		"Description": "Increases your speed while transporting items and decreases the likelihood of dropping them.",
+		"Points": 10,
+		"Jewel": "Transportr"
+	},
+	"Dragon Res +15": {
+		"Description": "Increases Dragon resistance by 15.",
+		"Points": 10,
+		"Jewel": "Dragon Res"
+	},
+	"Thunder Res -20": {
+		"Description": "Decreases Thunder resistance by 20.",
+		"Points": -10,
+		"Jewel": "ThunderRes"
+	},
+	"Constitution +1": {
+		"Description": "Slows Stamina depletion when evading/blocking. Enables dive-evade in any direction.",
+		"Points": 10,
+		"Jewel": "Constitutn"
+	},
+	"Iron Wall": {
+		"Description": "Increases your Defense and negates the effects of Defense Down.",
+		"Points": 10,
+		"Jewel": "Resilience"
+	},
+	"Recoil Down -3": {
+		"Description": "Greatly increases Bowgun recoil.",
+		"Points": -20,
+		"Jewel": "Recoil"
+	},
+	"Critical Eye +3": {
+		"Description": "Increases Affinity by 20%.",
+		"Points": 20,
+		"Jewel": "Expert"
+	},
+	"Tremor Res": {
+		"Description": "Prevents staggering from tremors created by large monsters.",
+		"Points": 10,
+		"Jewel": "Tremor Res"
+	},
+	"Dragon Atk +1": {
+		"Description": "Increases the power of Dragon attacks and Dragon shots (Dragon S).",
+		"Points": 10,
+		"Jewel": "Dragon Atk"
+	},
+	"Fire Res +15": {
+		"Description": "Increases Fire resistance by 15.",
+		"Points": 10,
+		"Jewel": "Fire Res"
+	},
+	"Gathering +2": {
+		"Description": "Often raises the number of times items can be gathered at Gathering Points.",
+		"Points": 15,
+		"Jewel": "Gathering"
+	},
+	"Critical Eye -1": {
+		"Description": "Decreases Affinity by 5%.",
+		"Points": -10,
+		"Jewel": "Expert"
+	},
+	"Attack Down (L)": {
+		"Description": "Greatly decreases Attack.",
+		"Points": -20,
+		"Jewel": "Attack"
+	},
+	"Distraction": {
+		"Description": "Slows charge of L. Sword/S. Axe/ D. Blades gauges, C. Blade phials, Bow/G. Sword/Hammer charge atks.",
+		"Points": -10,
+		"Jewel": "FastCharge"
+	},
+	"Focus": {
+		"Description": "Speeds charge of L. Sword/S. Axe/ D. Blades gauges, C. Blade phials, Bow/G. Sword/Hammer charge atks.",
+		"Points": 10,
+		"Jewel": "FastCharge"
+	},
+	"Recovery Spd -1": {
+		"Description": "Slows recovery from temporary damage (the red portion of the Health Gauge).",
+		"Points": -10,
+		"Jewel": "Rec Speed"
+	},
+	"Constitution +2": {
+		"Description": "Greatly slows Stamina depletion when evading/blocking. Enables dive-evade in any direction.",
+		"Points": 15,
+		"Jewel": "Constitutn"
+	},
+	"Slow Sharpening": {
+		"Description": "Slows down weapon sharpening.",
+		"Points": -10,
+		"Jewel": "Sharpener"
+	},
+	"Attack Up (XL)": {
+		"Description": "Massively increases Attack.",
+		"Points": 25,
+		"Jewel": "Attack"
+	},
+	"HG Earplugs": {
+		"Description": "Negates the effects of all large monsters' roars.",
+		"Points": 15,
+		"Jewel": "Hearing"
+	},
+	"Constitution -2": {
+		"Description": "Greatly speeds up Stamina depletion when evading, blocking, etc.",
+		"Points": -15,
+		"Jewel": "Constitutn"
+	},
+	"Wrath Awoken": {
+		"Description": "At higher Health, grants Guts effects; at lower Health, boosts Attack and Defense.",
+		"Points": 10,
+		"Jewel": "Fury"
+	},
+	"Recoil Down -2": {
+		"Description": "Increases Bowgun recoil.",
+		"Points": -15,
+		"Jewel": "Recoil"
+	},
+	"Fire Res -20": {
+		"Description": "Decreases Fire resistance by 20.",
+		"Points": -10,
+		"Jewel": "Fire Res"
+	},
+	"Recovery Up": {
+		"Description": "Increases the efficacy of Health recovery items.",
+		"Points": 10,
+		"Jewel": "Rec Level"
+	},
+	"Attack Down (S)": {
+		"Description": "Slightly decreases Attack.",
+		"Points": -10,
+		"Jewel": "Attack"
+	},
+	"Explosive Trapper": {
+		"Description": "Increases bomb/Blast damage, bomb- and trap-setting speed, and Combination success rate.",
+		"Points": 10,
+		"Jewel": "Mechanic"
+	},
+	"Rodeo God": {
+		"Description": "Makes it easier to mount and successfully topple a monster.",
+		"Points": 15,
+		"Jewel": "Mounting"
+	},
+	"Rock Steady": {
+		"Description": "Lessens your reaction when attacked.",
+		"Points": 10,
+		"Jewel": "Unshakable"
+	},
+	"Horn Maestro": {
+		"Description": "Decreases the likelihood of Horn items breaking, and increases the effect time of Hunting Horn melodies.",
+		"Points": 10,
+		"Jewel": "Maestro"
+	},
+	"Negate Paralysis": {
+		"Description": "Prevents Paralysis.",
+		"Points": 10,
+		"Jewel": "Paralysis"
+	},
+	"Short Sprinter": {
+		"Description": "Speeds up Stamina depletion for actions which continuously drain Stamina (such as dashing).",
+		"Points": -10,
+		"Jewel": "Stamina"
+	},
+	"Guard +2": {
+		"Description": "Greatly increases the likelihood of standing your ground when blocking an attack.",
+		"Points": 15,
+		"Jewel": "Guard"
+	},
+	"Fire Res +20": {
+		"Description": "Increases Fire resistance by 20.",
+		"Points": 15,
+		"Jewel": "Fire Res"
+	},
+	"Autotracker": {
+		"Description": "Always displays large monsters on the Map, as if they were marked.",
+		"Points": 15,
+		"Jewel": "Psychic"
+	},
+	"Use Blast Coat": {
+		"Description": "Allows Blast coatings to be set when equipped with a Bow.",
+		"Points": 10,
+		"Jewel": "Blast C+"
+	},
+	"Fire Atk Down": {
+		"Description": "Decreases the power of Fire attacks and Flaming shots (Flaming S).",
+		"Points": -10,
+		"Jewel": "Fire Atk"
+	},
+	"Pack Rat": {
+		"Description": "Raises number of items that can be gathered at Gathering Points. Allows mining 2 Charms at once... Maybe.",
+		"Points": 10,
+		"Jewel": "Hoarding"
+	},
+	"Torso Up": {
+		"Description": "",
+		"Points": 1,
+		"Jewel": "Torso Up"
+	},
+	"Fleet Feet": {
+		"Description": "Increases evade distance, and also increases Attack when your Health Gauge is full.",
+		"Points": 10,
+		"Jewel": "Prudence"
+	},
+	"Windproof (Hi)": {
+		"Description": "Negates Wind Pressure from almost all monsters.",
+		"Points": 15,
+		"Jewel": "Wind Res"
+	},
+	"Recoil Down -1": {
+		"Description": "Slightly increases Bowgun recoil.",
+		"Points": -10,
+		"Jewel": "Recoil"
+	},
+	"Critical God": {
+		"Description": "Increases Affinity by 30%.",
+		"Points": 30,
+		"Jewel": "Expert"
+	},
+	"Mounting Master": {
+		"Description": "Makes it much easier to mount and successfully topple a monster.",
+		"Points": 10,
+		"Jewel": "Mounting"
+	},
+	"Saddle Sore": {
+		"Description": "Makes it harder to mount and successfully topple a monster.",
+		"Points": -10,
+		"Jewel": "Mounting"
+	},
+	"Outdoorsman": {
+		"Description": "Improves fishing and cooking results during quests, and always displays the Map, even without the Map item.",
+		"Points": 10,
+		"Jewel": "Ranger"
+	},
+	"Demonic Blessing": {
+		"Description": "Sometimes increases damage taken.",
+		"Points": -10,
+		"Jewel": "Protection"
+	},
+	"Recovery Spd +2": {
+		"Description": "Greatly speeds recovery from temporary damage (the red portion of the Health Gauge).",
+		"Points": 15,
+		"Jewel": "Rec Speed"
+	},
+	"Use Poison Coat": {
+		"Description": "Allows Poison coatings to be set when equipped with a Bow.",
+		"Points": 10,
+		"Jewel": "Poison C+"
+	},
+	"Speed Sharpening": {
+		"Description": "Speeds up weapon sharpening.",
+		"Points": 10,
+		"Jewel": "Sharpener"
+	},
+	"Negate Stun": {
+		"Description": "Prevents Stun.",
+		"Points": 15,
+		"Jewel": "Stun"
+	},
+	"Steady Hand": {
+		"Description": "Prevents your attacks from being deflected and halves the rate at which Sharpness decreases.",
+		"Points": 10,
+		"Jewel": "Edge Lore"
+	},
+	"Combination +45%": {
+		"Description": "Increases your Combination success rate by 45%.",
+		"Points": 15,
+		"Jewel": "Combo Rate"
+	},
+	"Double Bleeding": {
+		"Description": "Doubles the damage received from Bleeding.",
+		"Points": -10,
+		"Jewel": "Bleeding"
+	},
+	"Halve Stun": {
+		"Description": "Reduces the likelihood of being Stunned by 50%.",
+		"Points": 10,
+		"Jewel": "Stun"
+	},
+	"Dragon Res -20": {
+		"Description": "Decreases Dragon resistance by 20.",
+		"Points": -10,
+		"Jewel": "Dragon Res"
+	},
+	"Bombardier": {
+		"Description": "Increases bomb damage, and raises the Combination success rate for all bombs to 100%.",
+		"Points": 10,
+		"Jewel": "Bomb Boost"
+	},
+	"Bad Luck": {
+		"Description": "Sometimes decreases the number of Reward Items received at the end of a Quest.",
+		"Points": -10,
+		"Jewel": "Fate"
+	},
+	"Windproof (Lo)": {
+		"Description": "Lessens almost all Wind Pressure.",
+		"Points": 10,
+		"Jewel": "Wind Res"
+	},
+	"Cold Cancel": {
+		"Description": "Negates all cold.",
+		"Points": 10,
+		"Jewel": "Cold Res"
+	},
+	"Bloodthirst": {
+		"Description": "Speeds up gauges/charged attacks. Can eat Raw Meat, and Steaks temporarily grant unlimited Stamina.",
+		"Points": 10,
+		"Jewel": "Ferocity"
+	},
+	"Cold Surge": {
+		"Description": "Increases the speed at which your maximum Stamina depletes from cold.",
+		"Points": -10,
+		"Jewel": "Cold Res"
+	},
+	"Sharpness +1": {
+		"Description": "Increases your weapon's Sharpness.",
+		"Points": 10,
+		"Jewel": "Handicraft"
+	},
+	"Pierce/Pierce Up": {
+		"Description": "Increases the power of Pierce shots (Pierce S) and Pierce-type arrows.",
+		"Points": 10,
+		"Jewel": "Pierce Up"
+	},
+	"Weakness Exploit": {
+		"Description": "Increases damage when striking body parts upon which your attacks are highly effective.",
+		"Points": 10,
+		"Jewel": "Tenderizer"
+	},
+	"Dragon Atk +2": {
+		"Description": "Greatly increases the power of Dragon attacks and Dragon shots (Dragon S).",
+		"Points": 15,
+		"Jewel": "Dragon Atk"
+	},
+	"Use Lv1 Pierce S": {
+		"Description": "Allows Lv1 Pierce shots (Pierce S) to be loaded.",
+		"Points": 10,
+		"Jewel": "Pierce S+"
+	},
+	"Detect": {
+		"Description": "Increases the information displayed on the Map when large monsters are marked.",
+		"Points": 10,
+		"Jewel": "Psychic"
+	},
+	"Load Up": {
+		"Description": "Increases Bowguns and Gunlance ammo capacity, C. Blade phials, and charge attack capacity of Bows.",
+		"Points": 10,
+		"Jewel": "Loading"
+	},
+	"Dragon Atk +3": {
+		"Description": "Massively increases the power of Dragon attacks and Dragon shots (Dragon S).",
+		"Points": 20,
+		"Jewel": "Dragon Atk"
+	},
+	"Critical Eye +2": {
+		"Description": "Increases Affinity by 15%.",
+		"Points": 15,
+		"Jewel": "Expert"
+	},
+	"Dragon Res +20": {
+		"Description": "Increases Dragon resistance by 20.",
+		"Points": 15,
+		"Jewel": "Dragon Res"
+	},
+	"Gathering God": {
+		"Description": "Very often raises the number of times items can be gathered at Gathering Points.",
+		"Points": 20,
+		"Jewel": "Gathering"
+	},
+	"Pro Dirty Fencer": {
+		"Description": "Ups power every time you faint. Lowers certain actions' stamina cost. Boosts Exhaust effects.",
+		"Points": 10,
+		"Jewel": "D. Fencing"
+	},
+	"Item Use Down": {
+		"Description": "Decreases the effect time of certain items.",
+		"Points": -10,
+		"Jewel": "LastingPwr"
+	},
+	"Negate Bleeding": {
+		"Description": "Prevents Bleeding.",
+		"Points": 10,
+		"Jewel": "Bleeding"
+	},
+	"Miraculous Luck": {
+		"Description": "Very often increases the number of Reward Items received at the end of a Quest.",
+		"Points": 20,
+		"Jewel": "Fate"
+	},
+	"Fire Atk +1": {
+		"Description": "Increases the power of Fire attacks and Flaming shots (Flaming S).",
+		"Points": 10,
+		"Jewel": "Fire Atk"
+	},
+	"Marathon Runner": {
+		"Description": "Slows down Stamina depletion for actions which continuously drain Stamina (such as dashing).",
+		"Points": 10,
+		"Jewel": "Stamina"
+	},
+	"Combination -10%": {
+		"Description": "Decreases your Combination success rate by 10%.",
+		"Points": -10,
+		"Jewel": "Combo Rate"
+	},
+	"Attack Down (M)": {
+		"Description": "Decreases Attack.",
+		"Points": -15,
+		"Jewel": "Attack"
+	},
+	"Divine Blessing": {
+		"Description": "Sometimes decreases damage taken.",
+		"Points": 10,
+		"Jewel": "Protection"
+	},
+	"Critical Eye +4": {
+		"Description": "Warning: This skill does not exist in the game but is still present in the game data.",
+		"Points": 25,
+		"Jewel": "Expert"
+	},
+	"Evade Extender": {
+		"Description": "Increases evade distance.",
+		"Points": 10,
+		"Jewel": "Evade Dist"
+	},
+	"Great Luck": {
+		"Description": "Often increases the number of Reward Items received at the end of a Quest.",
+		"Points": 15,
+		"Jewel": "Fate"
+	},
+	"Gathering +1": {
+		"Description": "Sometimes raises the number of times items can be gathered at Gathering Points.",
+		"Points": 10,
+		"Jewel": "Gathering"
+	},
+	"Meat Lover": {
+		"Description": "Allows consumption of Raw Meat, plus Rare and Well-done Steaks temporarily grant unlimited Stamina.",
+		"Points": 10,
+		"Jewel": "Carnivore"
+	},
+	"Attack Up (S)": {
+		"Description": "Slightly increases Attack.",
+		"Points": 10,
+		"Jewel": "Attack"
+	},
+	"Use Sleep Coat": {
+		"Description": "Allows Sleep coatings to be set when equipped with a Bow.",
+		"Points": 10,
+		"Jewel": "Sleep C+"
+	},
+	"Palico Rally": {
+		"Description": "Increases the Attack and Defense of Palicoes.",
+		"Points": 10,
+		"Jewel": "TeamPlayer"
+	},
+	"Use Any Pierce S": {
+		"Description": "Allows all levels of Pierce shots (Pierce S) to be loaded.",
+		"Points": 15,
+		"Jewel": "Pierce S+"
+	},
+	"Use Slicing S": {
+		"Description": "Allows Slicing shots (Slicing S) to be loaded.",
+		"Points": 10,
+		"Jewel": "Slicing S+"
+	},
+	"Peak Performance": {
+		"Description": "Increases Attack when your Health Gauge is full.",
+		"Points": 10,
+		"Jewel": "Unscathed"
+	},
+	"Guard +1": {
+		"Description": "Increases the likelihood of standing your ground when blocking an attack.",
+		"Points": 10,
+		"Jewel": "Guard"
+	},
+	"Guard Up":
+	{
+		"Description": "Skills that cause previously unblockable attacks to become blockable.",
+		"Points": 10,
+		"Jewel": "Guard Up"
+	},
+	"Honed Blade":
+	{
+		"Description": "Skills that increase Attack and raise Sharpness. (Blademaster Only).",
+		"Points": 10,
+		"Jewel": "Edgemaster"
+	}
+}
