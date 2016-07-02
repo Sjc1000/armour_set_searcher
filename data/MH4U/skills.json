@@ -14,6 +14,21 @@
 		"Points": 15,
 		"Jewel": "Recoil"
 	},
+    "Challenger +2": {
+        "Description": "Greatly increases Attack and Affinity when a large monster in the same area becomes angry.",
+        "Points": 15,
+        "Jewel": "Spirit"
+    },
+    "Challenger +1": {
+        "Description": "Increases Attack and Affinity when a large monster in the same area becomes angry.",
+        "Points": 10,
+        "Jewel": "Spirit"
+    },
+    "Quick Sheath": {
+        "Description": "Skill that increases weapon sheating time",
+        "Points": 10,
+        "Jewel": "Sheathing"
+    },
 	"Gathering -1": {
 		"Description": "Sometimes lowers the number of times items can be gathered at Gathering Points.",
 		"Points": -10,

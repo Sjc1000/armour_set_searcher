@@ -63,8 +63,8 @@ class SkillList(Gtk.ScrolledWindow):
         check_column = Gtk.TreeViewColumn('', check_render, active=1)
         check_column.set_clickable(True)
         check_column.connect('clicked', self.check_column_clicked)
-        self.view.append_column(text_column)
         self.view.append_column(check_column)
+        self.view.append_column(text_column)
         self.add(self.view)
         self.populate()
 
@@ -566,11 +566,16 @@ class Game(Gtk.ComboBox):
 
 
         # Parse through all the armour pieces and sort them to their part.
-        head_parts = sorted({x: armour[x] for x in armour if armour[x]['part'] == 'Head'}, key=piece_sort)
-        arm_parts = sorted({x: armour[x] for x in armour if armour[x]['part'] == 'Arms'}, key=piece_sort)
-        chest_parts = sorted({x: armour[x] for x in armour if armour[x]['part'] == 'Chest'}, key=piece_sort)
-        leg_parts = sorted({x: armour[x] for x in armour if armour[x]['part'] == 'Legs'}, key=piece_sort)
-        waist_parts = sorted({x: armour[x] for x in armour if armour[x]['part'] == 'Waist'}, key=piece_sort)
+        head_parts = sorted({x: armour[x] for x in armour if armour[x]['part']
+                            == 'Head'}, key=piece_sort)
+        arm_parts = sorted({x: armour[x] for x in armour if armour[x]['part']
+                            == 'Arms'}, key=piece_sort)
+        chest_parts = sorted({x: armour[x] for x in armour if armour[x]['part']
+                            == 'Chest'}, key=piece_sort)
+        leg_parts = sorted({x: armour[x] for x in armour if armour[x]['part']
+                            == 'Legs'}, key=piece_sort)
+        waist_parts = sorted({x: armour[x] for x in armour if armour[x]['part']
+                            == 'Waist'}, key=piece_sort)
 
 
         print('Loaded {} armour pieces in total.'.format(len(armour)))
@@ -582,6 +587,195 @@ class Game(Gtk.ComboBox):
 
         main_window = self.get_toplevel()
         main_window.skill_list.populate()
+        main_window.base.update_list()
+        return None
+
+
+class ResultLimit(Gtk.HBox):
+    def __init__(self):
+        Gtk.HBox.__init__(self)
+        title = Gtk.Label('Amount of sets:')
+        self.set_tooltip_text('This does not affect the amount of results'
+                               ' that are returned.')
+        self.pack_start(title, True, True, 10)
+        self.edit = Gtk.Entry()
+        self.edit.set_text('400000')
+        self.edit.connect('changed', self.new_text)
+        self.pack_start(self.edit, True, True, 10)
+
+    def new_text(self, *args):
+        text = self.edit.get_text().strip()
+        self.edit.set_text(''.join([x for x in text if x in '1234567890']))
+
+
+def armor_name_sort(piece):
+    return piece
+
+
+class ArmorList(Gtk.ScrolledWindow):
+    def __init__(self, title, pieces, use_pieces, top):
+        Gtk.ScrolledWindow.__init__(self)
+        self.top = top
+        self.clear_all = True
+        self.list = Gtk.ListStore(str, bool)
+        self.view = Gtk.TreeView(self.list)
+        self.view.set_hexpand(True)
+        self.view.set_vexpand(True)
+        self.view.connect('row-activated', self.clicked)
+        text_render = Gtk.CellRendererText()
+        check_render = Gtk.CellRendererToggle()
+        text_column = Gtk.TreeViewColumn(title, text_render, text=0)
+        text_column.set_clickable(True)
+        text_column.connect('clicked', self.title_clicked)
+        check_column = Gtk.TreeViewColumn('', check_render, active=1)
+        self.view.append_column(text_column)
+        self.view.append_column(check_column)
+        self.add(self.view)
+        for i in pieces:
+            self.list.append([i, i in use_pieces])
+
+    def clicked(self, treeview, path, column):
+        index = int(path.to_string())
+        print('Piece "{}" clicked.'.format(self.list[index][0]))
+        self.list[index][1] = not self.list[index][1]
+        self.top.check_pieces()
+        return None
+
+    def title_clicked(self, *args):
+        self.clear_all = not self.clear_all
+        for item in self.list:
+            item[1] = self.clear_all
+        return None
+
+
+
+class BaseOff(Gtk.Button):
+    def __init__(self, data):
+        Gtk.Button.__init__(self, label='Armour')
+        self.connect('clicked', self.clicked)
+        self.data = data
+        self.head_pieces = ArmorList('Head',
+                           sorted(head_parts, key=armor_name_sort),
+                           data['head'], self)
+        self.chest_pieces = ArmorList('Chest',
+                            sorted(chest_parts, key=armor_name_sort),
+                            data['chest'], self)
+        self.arm_pieces = ArmorList('Arms',
+                          sorted(arm_parts, key=armor_name_sort),
+                          data['arms'], self)
+        self.waist_pieces = ArmorList('Waist',
+                          sorted(waist_parts, key=armor_name_sort),
+                          data['waist'], self)
+        self.leg_pieces = ArmorList('Legs',
+                          sorted(leg_parts, key=armor_name_sort),
+                          data['legs'], self)
+        self.window = Gtk.Window()
+        self.window.set_size_request(500, 200)
+        self.window.connect('delete-event', self.window_closed)
+        grid = Gtk.Grid()
+        okay = Gtk.Button('Okay')
+        okay.connect('clicked', self.okay)
+        cancel = Gtk.Button('Cancel')
+        cancel.connect('clicked', self.window.destroy)
+        self.search = Gtk.Button('Generate possible skills')
+        self.search.set_tooltip_text('This will generate a list of all '
+                                     'possible skills for this armor set.')
+        self.search.connect('clicked', self.skills_search)
+        grid.attach(self.head_pieces, 0, 0, 5, 10)
+        grid.attach(self.chest_pieces, 5, 0, 5, 10)
+        grid.attach(self.arm_pieces, 10, 0, 5, 10)
+        grid.attach(self.waist_pieces, 15, 0, 5, 10)
+        grid.attach(self.leg_pieces, 20, 0, 5, 10)
+        grid.attach(okay, 0, 10, 1, 1)
+        self.window.add(grid)
+
+    def clicked(self, *args):
+        self.set_sensitive(False)
+        self.window.show_all()
+        return None
+
+    def window_closed(self, *args):
+        self.window.hide()
+        self.set_sensitive(True)
+        return True
+
+    def update_list(self):
+        print('Updating armor pieces')
+        self.head_pieces.list.clear()
+        self.chest_pieces.list.clear()
+        self.arm_pieces.list.clear()
+        self.waist_pieces.list.clear()
+        self.leg_pieces.list.clear()
+
+        for i in head_parts:
+            self.head_pieces.list.append([i, True])
+
+        for i in chest_parts:
+            self.chest_pieces.list.append([i, True])
+
+        for i in arm_parts:
+            self.arm_pieces.list.append([i, True])
+
+        for i in waist_parts:
+            self.waist_pieces.list.append([i, True])
+
+        for i in leg_parts:
+            self.leg_pieces.list.append([i, True])
+
+        head = [x[0] for x in self.head_pieces.list if x[1]]
+        chest = [x[0] for x in self.chest_pieces.list if x[1]]
+        arms = [x[0] for x in self.arm_pieces.list if x[1]]
+        waist = [x[0] for x in self.waist_pieces.list if x[1]]
+        legs = [x[0] for x in self.leg_pieces.list if x[1]]
+        self.data = {'head': head, 'chest': chest,
+                     'legs': legs, 'waist': waist,
+                     'arms': arms}
+        return None
+
+    def check_pieces(self):
+        head = [x[0] for x in self.head_pieces.list if x[1]]
+        chest = [x[0] for x in self.chest_pieces.list if x[1]]
+        arms = [x[0] for x in self.arm_pieces.list if x[1]]
+        waist = [x[0] for x in self.waist_pieces.list if x[1]]
+        legs = [x[0] for x in self.leg_pieces.list if x[1]]
+        if (len(head) == 1 and len(chest) == 1 and len(arms) == 1
+                and len(waist) == 1 and len(legs) == 1):
+            #self.search.show()
+            return True
+        else:
+            #self.search.hide()
+            return False
+
+    def okay(self, *args):
+        head = [x[0] for x in self.head_pieces.list if x[1]]
+        chest = [x[0] for x in self.chest_pieces.list if x[1]]
+        arms = [x[0] for x in self.arm_pieces.list if x[1]]
+        waist = [x[0] for x in self.waist_pieces.list if x[1]]
+        legs = [x[0] for x in self.leg_pieces.list if x[1]]
+        self.data = {'head': head, 'chest': chest,
+                     'legs': legs, 'waist': waist,
+                     'arms': arms}
+        self.window_closed()
+        return None
+
+    @AsThread()
+    def skills_search(self, *args):
+        main_window = self.get_toplevel()
+        main_window.result_area.clear()
+        main_window.search_button.disable()
+        wanted_skills = [x[0] for x in main_window.skill_list.list if x[1] == True]
+        head = [x[0] for x in self.head_pieces.list if x[1]][0]
+        chest = [x[0] for x in self.chest_pieces.list if x[1]][0]
+        arms = [x[0] for x in self.arm_pieces.list if x[1]][0]
+        waist = [x[0] for x in self.waist_pieces.list if x[1]][0]
+        legs = [x[0] for x in self.leg_pieces.list if x[1]][0]
+        sets = generate_skills(wanted_skills, head, chest, arms, waist, legs)
+        sorted_sets = sorted(sets, key=skill_sort)
+        for index, item in enumerate(sorted_sets[:100]):
+            result = Result(index+1, item)
+            main_window.result_area.add_result(result)
+        main_window.search_button.enable()
+        main_window.result_area.add_end_of_results()
         return None
 
 
@@ -616,17 +810,23 @@ class MainWindow(Gtk.Window):
         self.max_rarity = MaxRarity()
         self.jewels_count = JewelsCount()
         self.game = Game()
+        self.limit = ResultLimit()
+        self.base = BaseOff({'head': head_parts, 'chest': chest_parts,
+                             'legs': leg_parts, 'waist': waist_parts,
+                             'arms': arm_parts})
         self.grid.attach(self.game, 0, 0, 7, 1)
         self.grid.attach(self.skill_list, 0, 1, 7, 19)
         self.grid.attach(self.search_button, 0, 20, 7, 1)
         self.grid.attach(self.separator, 7, 17, 17, 1)
-        self.grid.attach(self.result_area, 7, 0, 17, 17)
+        self.grid.attach(self.result_area, 7, 1, 17, 16)
         self.grid.attach(self.sort_type, 7, 18, 8, 1)
         self.grid.attach(self.gender, 7, 20, 8, 1)
         self.grid.attach(self.weapon, 7, 19, 8, 1)
         self.grid.attach(self.min_rarity, 15, 18, 9, 1)
         self.grid.attach(self.max_rarity, 15, 19, 9, 1)
-        #self.grid.attach(self.jewels_count, 15, 20, 9, 1)
+        self.grid.attach(self.jewels_count, 15, 20, 7, 1)
+        self.grid.attach(self.limit, 17, 0, 7, 1)
+        self.grid.attach(self.base, 23, 20, 1, 1)
         self.add(self.grid)
         return None
 
@@ -643,6 +843,8 @@ class MainWindow(Gtk.Window):
         gender = self.gender.list[self.gender.combo.get_active()][0]
         weapon = self.weapon.list[self.weapon.combo.get_active()][0]
         jewels_count = self.jewels_count.get_active()
+        amount = int(self.limit.edit.get_text())
+        use_pieces = self.base.data
         min_rarity = int(self.min_rarity.list[
             self.min_rarity.combo.get_active()][0])
         max_rarity = int(self.max_rarity.list[
@@ -652,7 +854,8 @@ class MainWindow(Gtk.Window):
 
         try:
             results = generate_combos(wanted_skills, armour, skills, jewels,
-                             gender, weapon, gems_count=jewels_count)
+                             gender, weapon, gems_count=jewels_count,
+                            size_limit=amount, use_parts=use_pieces)
             sorter = ArmourSort(wanted_skills, sort_type=sort_type)
             print('Sorting, please wait.')
             sorted_results = sorted(results, key=sorter.sort, reverse=True)
@@ -675,7 +878,6 @@ class ArmourSort:
         self.wanted_skills = {}
         for name in wanted_skills:
             self.wanted_skills[name] = skills[name]['Points']
-        print( self.wanted_skills )
         self.sort_type = sort_type
 
     def sort(self, aset):
@@ -795,8 +997,112 @@ def jewel_name(item):
     return list(item.keys())[0]
 
 
+def skill_sort(aset):
+    head = aset['head']
+    chest = aset['chest']
+    legs = aset['legs']
+    arms = aset['arms']
+    waist = aset['waist']
+    skill_points = {}
+    for item in [head, chest, arms, waist, legs]:
+        for skill in item['skills']:
+            if skill not in skill_points:
+                 skill_points[skill] = 0
+            skill_points[skill] += item['skills'][skill]
+    for item in aset['slots']:
+        for jewel in item:
+            if 'Skills' not in jewel:
+                continue
+            name = list(jewel.keys())[0]
+            for skill in jewel[name]['Skills']:
+                if skill not in skill_points:
+                     skill_points[skill] = 0
+                skill_points[skill] += jewel[name]['Skills'][skill]
+    total_points = 0
+    for skill in skill_points:
+        total_points += skill_points[skill]
+    aset['points'] = total_points
+    return total_points/10
+
+
+def generate_skills(wanted_skills, head, chest, arms, waist, legs):
+    hc = armour[head]
+    cc = armour[chest]
+    ac = armour[arms]
+    wc = armour[waist]
+    lc = armour[legs]
+    hc['name'] = head
+    cc['name'] = chest
+    ac['name'] = arms
+    wc['name'] = waist
+    lc['name'] = legs
+    required_skills = {}
+
+    for skill_name in wanted_skills:
+        if skill_name in skills:
+            required_skills[skill_name] = skills[skill_name]
+
+    hji = cji = aji = wji = lji = 0
+    jls = [{'No Jewel': {'Points': 0, 'Slots': 0}}]
+    for item in sorted(jewels, reverse=True, key=jewel_name):
+        name = list(item.keys())[0]
+        if (not any(required_skills[x]['Jewel'] in item[name]['Skills']
+                for x in required_skills)):
+                    continue
+        jls.append(item)
+    index = 0
+    while True:
+        hjn = list(jls[hji].keys())[0]
+        cjn = list(jls[cji].keys())[0]
+        ajn = list(jls[aji].keys())[0]
+        wjn = list(jls[wji].keys())[0]
+        ljn = list(jls[lji].keys())[0]
+        if hji == 0:
+            hj = [{}]
+        else:
+            hj = [jls[hji]] * (int(hc['slots']) // int(jls[hji][hjn]['Slots']))
+        if cji == 0:
+            cj = [{}]
+        else:
+            cj = [jls[cji]] * (int(cc['slots']) // int(jls[cji][cjn]['Slots']))
+        if aji == 0:
+            aj = [{}]
+        else:
+            aj = [jls[aji]] * (int(ac['slots']) // int(jls[aji][ajn]['Slots']))
+        if wji == 0:
+            wj = [{}]
+        else:
+            wj = [jls[wji]] * (int(wc['slots']) // int(jls[wji][wjn]['Slots']))
+        if lji == 0:
+            lj = [{}]
+        else:
+            lj = [jls[lji]] * (int(lc['slots']) // int(jls[lji][ljn]['Slots']))
+        yield {'head': hc, 'chest': cc, 'arms': ac, 'waist': wc, 'legs': lc,
+               'slots': [hj, cj, aj, wj, lj]}
+        hji += 1
+        index += 1
+        if (index+1) % 100000 == 0:
+            time.sleep(1)
+        if hji == len(jls):
+            hji = 0
+            cji += 1
+        if cji == len(jls):
+            cji = 0
+            aji += 1
+        if aji == len(jls):
+            aji = 0
+            wji += 1
+        if wji == len(jls):
+            wji = 0
+            lji += 1
+        if lji == len(jls) or index == 5000000:
+            break
+    raise StopIteration
+
+
 def generate_combos(wanted_skills, armour, skills, jewels, gender, weapon,
-                    only_skilled=True, gems_count=False, size_limit=400000):
+                    only_skilled=True, gems_count=False, size_limit=1000000,
+                    use_parts={}):
     sets = []
     head = []
     arms = []
@@ -806,11 +1112,16 @@ def generate_combos(wanted_skills, armour, skills, jewels, gender, weapon,
     jls = [{'No Jewel': {'Points': 0, 'Slots': 0}}]
     required_skills = {}
 
+    if (use_parts['head'] != head_parts or use_parts['chest'] != chest_parts
+            or use_parts['waist'] != waist_parts
+            or use_parts['legs'] != leg_parts):
+        only_skilled = False
+
     for skill_name in wanted_skills:
         if skill_name in skills:
             required_skills[skill_name] = skills[skill_name]
 
-    for name in head_parts:
+    for name in use_parts['head']:
         item = armour[name]
         item['name'] = name
         if (only_skilled and (not any(required_skills[x]['Jewel'] in
@@ -819,13 +1130,13 @@ def generate_combos(wanted_skills, armour, skills, jewels, gender, weapon,
             continue
         if ((weapon == item['type'] or item['type'] == 'Both' or
                 weapon == 'Both') and (gender == item['gender'] or
-                gender == 'Both')):
+                gender == 'Both' or item['gender'] == 'Both')):
             head.append(item)
 
     sorter = PieceSort(required_skills)
     head = sorted(head, key=sorter.sort)
 
-    for name in chest_parts:
+    for name in use_parts['chest']:
         item = armour[name]
         item['name'] = name
         if only_skilled and (not any(required_skills[x]['Jewel'] in
@@ -834,13 +1145,13 @@ def generate_combos(wanted_skills, armour, skills, jewels, gender, weapon,
             continue
         if ((weapon == item['type'] or item['type'] == 'Both' or
                 weapon == 'Both') and (gender == item['gender'] or
-                gender == 'Both')):
+                gender == 'Both' or item['gender'] == 'Both')):
             chest.append(item)
 
     sorter = PieceSort(required_skills)
     chest = sorted(chest, key=sorter.sort)
 
-    for name in arm_parts:
+    for name in use_parts['arms']:
         item = armour[name]
         item['name'] = name
         if only_skilled and (not any(required_skills[x]['Jewel'] in
@@ -849,13 +1160,13 @@ def generate_combos(wanted_skills, armour, skills, jewels, gender, weapon,
             continue
         if ((weapon == item['type'] or item['type'] == 'Both' or
                 weapon == 'Both') and (gender == item['gender'] or
-                gender == 'Both')):
+                gender == 'Both' or item['gender'] == 'Both')):
             arms.append(item)
 
     sorter = PieceSort(required_skills)
     arms = sorted(arms, key=sorter.sort)
 
-    for name in waist_parts:
+    for name in use_parts['waist']:
         item = armour[name]
         item['name'] = name
         if only_skilled and (not any(required_skills[x]['Jewel'] in
@@ -864,13 +1175,13 @@ def generate_combos(wanted_skills, armour, skills, jewels, gender, weapon,
             continue
         if ((weapon == item['type'] or item['type'] == 'Both' or
                 weapon == 'Both') and (gender == item['gender'] or
-                gender == 'Both')):
+                gender == 'Both' or item['gender'] == 'Both')):
             waist.append(item)
 
     sorter = PieceSort(required_skills)
     waist = sorted(waist, key=sorter.sort)
 
-    for name in leg_parts:
+    for name in use_parts['legs']:
         item = armour[name]
         item['name'] = name
         if only_skilled and (not any(required_skills[x]['Jewel'] in
@@ -879,7 +1190,7 @@ def generate_combos(wanted_skills, armour, skills, jewels, gender, weapon,
             continue
         if ((weapon == item['type'] or item['type'] == 'Both' or
                 weapon == 'Both') and (gender == item['gender'] or
-                gender == 'Both')):
+                gender == 'Both' or item['gender'] == 'Both')):
             legs.append(item)
 
     sorter = PieceSort(required_skills)
@@ -911,6 +1222,16 @@ def generate_combos(wanted_skills, armour, skills, jewels, gender, weapon,
         ac = arms[ai]
         wc = waist[wi]
         lc = legs[li]
+        if hji > len(jls):
+            hji = len(jls)-1
+        if cji > len(jls):
+            cji = len(jls)-1
+        if aji > len(jls):
+            aji = len(jls)-1
+        if wji > len(jls):
+            wji = len(jls)-1
+        if lji > len(jls):
+            lji = len(jls)-1
 
         hjn = list(jls[hji].keys())[0]
         cjn = list(jls[cji].keys())[0]
@@ -940,7 +1261,15 @@ def generate_combos(wanted_skills, armour, skills, jewels, gender, weapon,
             lj = [jls[lji]] * (int(lc['slots']) // int(jls[lji][ljn]['Slots']))
         yield {'head': hc, 'chest': cc, 'arms': ac, 'waist': wc, 'legs': lc,
                'slots': [hj, cj, aj, wj, lj]}
-        hji += 1
+
+        if hji == 0:
+            hji += 1
+            cji += 1
+            aji += 1
+            wji += 1
+            lji += 1
+        else:
+            hji += 1
         if hji == len(jls):
             hji = 0
             cji += 1
@@ -975,7 +1304,7 @@ def generate_combos(wanted_skills, armour, skills, jewels, gender, weapon,
             break
         index += 1
         if (index+1) % 100000 == 0:
-            time.sleep(0.5)
+            time.sleep(1)
     raise StopIteration
 
 
