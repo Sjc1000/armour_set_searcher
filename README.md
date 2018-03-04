@@ -11,7 +11,7 @@ Run "python3 searcher.py"
 
 ## Thanks
 
-Thanks to Bobbo from #monsterhunter (irc.freenode.net) for converting MHFU data to my format.
+Thanks to [Bobbo](https://github.com/JeffBobbo) for converting MHFU data to my format.
 
 ## Requirements
 
